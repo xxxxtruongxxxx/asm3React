@@ -1,0 +1,15 @@
+.TrendingListItem {
+    height: auto;
+    -webkit-transition: .8s ease-in-out;
+    transition: .8s ease-in-out;
+}
+
+.TrendingListItem img {
+    width: 100%;
+    height: auto;
+}
+
+.TrendingListItem:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

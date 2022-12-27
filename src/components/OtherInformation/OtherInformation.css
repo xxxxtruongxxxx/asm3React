@@ -1,0 +1,41 @@
+.otherInfo {
+    margin-top: 5rem;
+}
+
+.otherInfoItem {
+    text-align: center;
+    font-style: italic;
+    font-size: large;
+}
+
+.otherInfoItem p,
+.otherInfoBot-Left p {
+    font-size: small;
+    opacity: 0.5;
+}
+
+.otherInfoBot {
+    margin-top: 1.5rem;
+}
+
+.otherInfoBot-Left {
+    text-align: left;
+    font-size: larger;
+    font-style: italic;
+}
+
+
+.otherInfoBot-Right {
+    text-align: right;
+}
+
+.otherInfoBot-Right input,
+button {
+    padding: 1rem;
+}
+
+
+.otherInfoBot-Right button {
+    background-color: #333;
+    color: aliceblue;
+}

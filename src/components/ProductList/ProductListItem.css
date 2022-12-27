@@ -1,0 +1,28 @@
+.ProductListItem {
+    max-width: 100%;
+    height: auto;
+    -webkit-transition: .8s ease-in-out;
+    transition: .8s ease-in-out;
+}
+
+.ProductListItem img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+.ProductListItem:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.ProductListItem a {
+    text-decoration: none;
+    text-align: center;
+    color: #111;
+}
+
+.ProductListItem a div:nth-child(3) {
+    color: #888;
+    opacity: 0.7;
+}

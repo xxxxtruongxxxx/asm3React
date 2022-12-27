@@ -1,0 +1,14 @@
+.footer {
+    padding: unset;
+    background-color: #111;
+    padding: 5% 15% 5% 15%;
+    margin: 0;
+}
+
+.footer-col {
+    color: rgb(96, 95, 99);
+}
+
+.footer-col h4 {
+    color: white;
+}

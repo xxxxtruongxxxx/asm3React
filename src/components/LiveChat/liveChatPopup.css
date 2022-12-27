@@ -1,0 +1,86 @@
+.liveChatPopup {
+    position: fixed;
+    bottom: 8rem;
+    right: 5rem;
+    width: 20rem;
+    height: 30rem;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 5px #888;
+    border-radius: 5%;
+}
+
+.slideRightIn {
+    animation: slideLeftIn 0.5s ease-in both;
+    -webkit-animation: slideLeftIn 1 s ease-in both;
+}
+
+@keyframes slideLeftIn {
+    from {
+        opacity: 0;
+        -webkit-transform: translateX(50%);
+
+    }
+}
+
+@-webkit-keyframes slideLeftIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+/* .slideLeftOut {
+    animation: slideLeftOut 0.5s ease-out both;
+    -webkit-animation: slideLeftOut 0.5s ease-out both;
+}
+
+@keyframes slideLeftOut {
+    to {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+}
+
+@-webkit-keyframes slideLeftOut {
+    to {
+        opacity: 0;
+        -webkit-transform: translateX(50%);
+    }
+} */
+
+
+.liveChatPopup div:first-child {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.liveChatPopup div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    animation: colorBackground 0.5s infinite;
+    -webkit-animation: colorBackground 5s infinite;
+    -moz-animation: colorBackground 5s infinite;
+    -o-animation: colorBackground 0.5s infinite
+}
+
+@keyframes colorBackground {
+    0% {
+        background-color: white;
+        color: #000;
+    }
+
+    50% {
+        background-color: white;
+        color: red;
+    }
+
+    99% {
+        background-color: white;
+        color: cyan;
+    }
+
+    ;
+}

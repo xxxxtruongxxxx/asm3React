@@ -1,0 +1,21 @@
+.shop-categories {
+    padding-left: 1rem;
+}
+
+.shop-categories-list {
+    padding-left: 1.5rem;
+}
+
+.shop-categories-list * {
+    margin-top: 0.7rem;
+    font-style: italic;
+    padding: 0.5rem 1rem;
+}
+
+.shop-categories-list div:hover {
+    cursor: pointer;
+}
+
+.shop-categories-list div {
+    opacity: 0.5;
+}

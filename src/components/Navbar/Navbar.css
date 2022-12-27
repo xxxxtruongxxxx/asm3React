@@ -1,0 +1,39 @@
+@import '../../../node_modules/bootstrap/dist/css/bootstrap.css';
+
+
+.Navbar {
+    max-width: 100%;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.col2 {
+    text-align: center;
+}
+
+.col1 {
+    text-align: left;
+}
+
+.col1 a {
+    margin-left: 1rem;
+}
+
+.navcol3 {
+    text-align: right;
+}
+
+.navcol3 a {
+    margin-right: 1rem;
+}
+
+.logout {
+    margin-left: 1rem;
+}
+
+.logout:hover {
+    cursor: pointer;
+}
